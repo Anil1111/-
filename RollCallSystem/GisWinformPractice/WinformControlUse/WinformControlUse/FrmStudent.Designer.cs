@@ -44,7 +44,6 @@
             this.timerCallName = new System.Windows.Forms.Timer(this.components);
             this.panel3 = new System.Windows.Forms.Panel();
             this.autoButton = new System.Windows.Forms.Button();
-            this.sortBtn = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.lblName = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStuList)).BeginInit();
@@ -183,7 +182,6 @@
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.Info;
             this.panel3.Controls.Add(this.autoButton);
-            this.panel3.Controls.Add(this.sortBtn);
             this.panel3.Controls.Add(this.btnStop);
             this.panel3.Controls.Add(this.btnLoadStu);
             this.panel3.Controls.Add(this.btnStart);
@@ -202,16 +200,6 @@
             this.autoButton.Text = "自动点名";
             this.autoButton.UseVisualStyleBackColor = true;
             this.autoButton.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // sortBtn
-            // 
-            this.sortBtn.Location = new System.Drawing.Point(3, 4);
-            this.sortBtn.Name = "sortBtn";
-            this.sortBtn.Size = new System.Drawing.Size(75, 23);
-            this.sortBtn.TabIndex = 4;
-            this.sortBtn.Text = "排序";
-            this.sortBtn.UseVisualStyleBackColor = true;
-            this.sortBtn.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // panel4
             // 
@@ -280,7 +268,6 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.Label studentsNum;
-        private System.Windows.Forms.Button sortBtn;
         private System.Windows.Forms.Button autoButton;
     }
 }
